@@ -1,0 +1,576 @@
+{
+  "conditions": [
+    {
+      "id": "c1",
+      "name": "Acute upper respiratory infection",
+      "specialty": "Respiratory / Infection",
+      "setting": "OPD",
+      "opd": "Assess duration, fever, breathing, hydration, comorbidities and red flags. Most uncomplicated viral URTIs need supportive care, not antibiotics.",
+      "indoor": "Admit/escalate for respiratory distress, hypoxaemia, sepsis, inability to maintain hydration, or high-risk deterioration.",
+      "source_name": "WHO AWaRe Antibiotic Book",
+      "source_url": "https://www.who.int/publications/i/item/9789240062382"
+    },
+    {
+      "id": "c2",
+      "name": "Community-acquired pneumonia",
+      "specialty": "Respiratory / Infection",
+      "setting": "OPD + Indoor",
+      "opd": "Assess vitals, SpO₂, severity, comorbidities and oral intake. Use local CAP guidance for tests, antibiotic selection and duration; give explicit return precautions.",
+      "indoor": "Assess oxygenation/sepsis, investigate as appropriate, start empiric treatment per local protocol and review cultures/response for de-escalation.",
+      "source_name": "WHO AWaRe Antibiotic Book",
+      "source_url": "https://www.who.int/publications/i/item/9789240062382"
+    },
+    {
+      "id": "c3",
+      "name": "Asthma exacerbation",
+      "specialty": "Respiratory",
+      "setting": "OPD + Emergency",
+      "opd": "Assess speech, work of breathing, RR, pulse, SpO₂ and peak flow if available. Treat per current asthma guideline, reassess response, review inhaler technique and controller plan.",
+      "indoor": "Escalate immediately for exhaustion, altered consciousness, silent chest, cyanosis or deteriorating oxygenation; monitor and follow the local acute asthma pathway.",
+      "source_name": "GINA Strategy Reports",
+      "source_url": "https://ginasthma.org/reports/"
+    },
+    {
+      "id": "c4",
+      "name": "COPD exacerbation",
+      "specialty": "Respiratory",
+      "setting": "OPD + Indoor",
+      "opd": "Assess respiratory distress, SpO₂, baseline status and mimics. Use guideline-based bronchodilator/steroid/antibiotic decisions; antibiotics are not automatic for every exacerbation.",
+      "indoor": "Check blood gas if respiratory failure suspected; use controlled oxygen when indicated, monitor for hypercapnia/acidosis and assess need for ventilatory support.",
+      "source_name": "GOLD Reports",
+      "source_url": "https://goldcopd.org/"
+    },
+    {
+      "id": "c5",
+      "name": "Pulmonary tuberculosis",
+      "specialty": "Respiratory / Infection",
+      "setting": "OPD + Indoor",
+      "opd": "Follow national TB diagnostic algorithm; assess cough, haemoptysis, weight loss, fever, contact history and infection-control needs. Do not start an ad hoc regimen.",
+      "indoor": "Assess severity, complications and infectiousness; use national TB programme pathways, microbiology/drug-susceptibility results and treatment support.",
+      "source_name": "Bangladesh National TB Programme / WHO",
+      "source_url": "https://www.who.int/teams/global-tuberculosis-programme"
+    },
+    {
+      "id": "c6",
+      "name": "Dengue",
+      "specialty": "Infection / Tropical",
+      "setting": "OPD + Indoor",
+      "opd": "Assess illness day, warning signs, hydration, perfusion, urine output and comorbidities. Give return precautions and arrange illness-day-appropriate follow-up; avoid medicines that increase bleeding risk.",
+      "indoor": "Admit/escalate for shock, significant bleeding, respiratory distress/fluid accumulation or severe organ involvement. Titrate fluids to physiology with repeated reassessment.",
+      "source_name": "WHO dengue guidance",
+      "source_url": "https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue"
+    },
+    {
+      "id": "c7",
+      "name": "Acute diarrhoea / gastroenteritis",
+      "specialty": "Gastrointestinal / Infection",
+      "setting": "OPD + Indoor",
+      "opd": "Assess dehydration, blood in stool, fever, pain, duration and risk factors. Prioritize oral rehydration and nutrition; avoid routine antibiotics when not indicated.",
+      "indoor": "Protocolized rehydration; monitor perfusion, urine output and electrolytes when indicated; investigate severe, bloody, persistent or high-risk presentations.",
+      "source_name": "WHO diarrhoeal disease",
+      "source_url": "https://www.who.int/news-room/fact-sheets/detail/diarrhoeal-disease"
+    },
+    {
+      "id": "c8",
+      "name": "Urinary tract infection",
+      "specialty": "Renal / Infection",
+      "setting": "OPD + Indoor",
+      "opd": "Distinguish lower UTI from pyelonephritis, pregnancy, obstruction and complicated infection. Culture when indicated and choose treatment using local susceptibility guidance.",
+      "indoor": "Assess sepsis, obstruction, AKI and inability to take oral therapy; culture when feasible, start empiric treatment based on severity/local antibiogram and narrow to results.",
+      "source_name": "WHO AWaRe Antibiotic Book",
+      "source_url": "https://www.who.int/publications/i/item/9789240062382"
+    },
+    {
+      "id": "c9",
+      "name": "Cellulitis / erysipelas",
+      "specialty": "Skin / Infection",
+      "setting": "OPD + Indoor",
+      "opd": "Assess spread, systemic symptoms, abscess, diabetes and immune status. Choose antibiotic per local guidance and review if worsening or not improving.",
+      "indoor": "Rapid progression, pain out of proportion, bullae, necrosis or systemic toxicity require urgent senior/surgical assessment; treat severe infection via local protocol.",
+      "source_name": "Bangladesh STG on antibiotic use",
+      "source_url": "https://amr.cdc.gov.bd/wp-content/uploads/2018/10/STG-guideline-for-antimicrobial-use-version-1.0-date-1-december21.pdf"
+    },
+    {
+      "id": "c10",
+      "name": "Acute otitis media",
+      "specialty": "ENT / Infection",
+      "setting": "OPD",
+      "opd": "Assess otoscopy, severity, duration, age, complications and allergy. Analgesia and observation may be appropriate in selected patients; use current local antibiotic guidance.",
+      "indoor": "Escalate for mastoiditis, facial palsy, meningism, severe systemic illness or complications; select inpatient therapy with ENT/microbiology input.",
+      "source_name": "WHO AWaRe Antibiotic Book",
+      "source_url": "https://www.who.int/publications/i/item/9789240062382"
+    },
+    {
+      "id": "c11",
+      "name": "Acute pharyngitis / tonsillitis",
+      "specialty": "ENT / Infection",
+      "setting": "OPD",
+      "opd": "Assess airway, hydration, abscess signs and likelihood of streptococcal disease; avoid antibiotics for clearly viral illness and follow local testing/treatment guidance.",
+      "indoor": "Admit/escalate for airway compromise, peritonsillar/deep-neck infection, inability to swallow fluids, sepsis or serious complications.",
+      "source_name": "WHO AWaRe Antibiotic Book",
+      "source_url": "https://www.who.int/publications/i/item/9789240062382"
+    },
+    {
+      "id": "c12",
+      "name": "Acute sinusitis",
+      "specialty": "ENT / Infection",
+      "setting": "OPD",
+      "opd": "Assess duration, severe symptoms, unilateral findings and orbital/neurological red flags. Many cases are viral; use local criteria for antibiotic consideration.",
+      "indoor": "Urgent hospital/ENT review for orbital swelling, visual change, severe frontal headache, meningism, focal neurological signs or sepsis.",
+      "source_name": "WHO AWaRe Antibiotic Book",
+      "source_url": "https://www.who.int/publications/i/item/9789240062382"
+    },
+    {
+      "id": "c13",
+      "name": "Acute meningitis",
+      "specialty": "Neurology / Infection / Emergency",
+      "setting": "Emergency",
+      "opd": "Suspected meningitis is not routine OPD care: arrange emergency transfer/admission immediately. Do not wait for the full classic symptom pattern.",
+      "indoor": "Stabilize ABCs; obtain cultures and perform LP only when safe and without delaying time-critical treatment. Start empiric therapy promptly per current age-specific local protocol.",
+      "source_name": "WHO meningitis guideline (2025)",
+      "source_url": "https://www.who.int/publications/i/item/9789240108042"
+    },
+    {
+      "id": "c14",
+      "name": "Sepsis",
+      "specialty": "Emergency / Multisystem",
+      "setting": "Emergency + Indoor",
+      "opd": "If suspected with instability, altered mental status, poor perfusion or respiratory distress, arrange emergency assessment. Screening scores do not replace clinical judgment.",
+      "indoor": "Immediate ABC assessment, monitoring, IV access, urgent senior review, appropriate cultures/lactate without delaying time-critical antimicrobials, source control and repeated reassessment.",
+      "source_name": "Surviving Sepsis Campaign",
+      "source_url": "https://www.sccm.org/SurvivingSepsisCampaign/Guidelines/Adult-Patients"
+    },
+    {
+      "id": "c15",
+      "name": "Acute coronary syndrome",
+      "specialty": "Cardiovascular / Emergency",
+      "setting": "Emergency + Indoor",
+      "opd": "Suspected ACS is not routine OPD treatment. Arrange emergency assessment; obtain ECG promptly if available without delaying transfer.",
+      "indoor": "Activate local ACS pathway; serial ECG/troponin, risk assessment, antithrombotic and reperfusion decisions per current protocol and contraindications.",
+      "source_name": "NICE Acute Coronary Syndromes",
+      "source_url": "https://www.nice.org.uk/guidance/ng185"
+    },
+    {
+      "id": "c16",
+      "name": "Heart failure exacerbation",
+      "specialty": "Cardiovascular",
+      "setting": "OPD + Indoor",
+      "opd": "Assess dyspnoea, orthopnoea, oedema, weight change, vitals, SpO₂, medication adherence and precipitating factors. Unstable patients need emergency assessment.",
+      "indoor": "Monitor oxygenation, renal function, electrolytes and fluid status; treat precipitant and congestion per current guideline; escalate for shock, severe hypoxaemia or arrhythmia.",
+      "source_name": "ESC Clinical Practice Guidelines",
+      "source_url": "https://www.escardio.org/Guidelines/Clinical-Practice-Guidelines"
+    },
+    {
+      "id": "c17",
+      "name": "Hypertension",
+      "specialty": "Cardiovascular",
+      "setting": "OPD + Emergency",
+      "opd": "Confirm BP with correct technique/repeat measurement; assess risk, adherence, medicines and target-organ disease. Use national guideline for individualized long-term therapy.",
+      "indoor": "Severe BP with acute target-organ injury is an emergency. Avoid precipitous reduction unless the specific emergency protocol indicates it.",
+      "source_name": "WHO hypertension guideline",
+      "source_url": "https://www.who.int/publications/i/item/9789240033986"
+    },
+    {
+      "id": "c18",
+      "name": "Type 2 diabetes",
+      "specialty": "Endocrine / Metabolic",
+      "setting": "OPD + Indoor",
+      "opd": "Confirm diagnosis; assess HbA1c/glucose, BP, lipids, renal function and complications. Individualize lifestyle and medication plan for comorbidity, affordability and hypoglycaemia risk.",
+      "indoor": "Assess DKA/HHS, infection, dehydration, altered mental status and hypoglycaemia. Use a monitored inpatient protocol and make a safe medication/discharge plan.",
+      "source_name": "DGHS Bangladesh publications",
+      "source_url": "https://dghs.gov.bd/pages/publications"
+    },
+    {
+      "id": "c19",
+      "name": "Hypoglycaemia",
+      "specialty": "Endocrine / Emergency",
+      "setting": "Emergency + Indoor",
+      "opd": "Check glucose immediately in symptomatic or altered patients; identify insulin/sulfonylurea use, missed meals and precipitating illness. Treat promptly per protocol and recheck.",
+      "indoor": "If consciousness impaired, treat via emergency protocol and protect airway; monitor recurrence, review medication/renal function and investigate prolonged or recurrent episodes.",
+      "source_name": "WHO / local emergency protocol",
+      "source_url": "https://www.who.int/health-topics/diabetes"
+    },
+    {
+      "id": "c20",
+      "name": "Diabetic ketoacidosis / hyperosmolar state",
+      "specialty": "Endocrine / Emergency",
+      "setting": "Emergency + Indoor",
+      "opd": "Suspected DKA/HHS requires urgent hospital assessment, not routine OPD treatment. Check glucose, ketones, electrolytes, renal function and acid-base status.",
+      "indoor": "Use a monitored institutional protocol for fluids, insulin, potassium and precipitant treatment; serially reassess glucose, electrolytes, osmolality/ketones and mental status.",
+      "source_name": "NICE guidance library",
+      "source_url": "https://www.nice.org.uk/guidance/published?ngt=NICE+guidelines"
+    },
+    {
+      "id": "c21",
+      "name": "Acute kidney injury",
+      "specialty": "Renal",
+      "setting": "OPD + Indoor",
+      "opd": "Assess baseline/current creatinine, urine output, volume status, BP, infection/obstruction and nephrotoxic medicines. Urgent evaluation for oliguria, severe AKI or suspected complications.",
+      "indoor": "Check potassium/acid-base status, fluid status and obstruction; adjust medicines and seek urgent renal support for refractory complications or fluid overload.",
+      "source_name": "NICE AKI guideline",
+      "source_url": "https://www.nice.org.uk/guidance/ng148"
+    },
+    {
+      "id": "c22",
+      "name": "Chronic kidney disease",
+      "specialty": "Renal",
+      "setting": "OPD + Indoor",
+      "opd": "Confirm chronicity; stage with eGFR and albuminuria; assess BP, diabetes, medicines, anaemia and cardiovascular risk. Review renal dosing and follow-up interval.",
+      "indoor": "Admit for acute complications such as pulmonary oedema, dangerous electrolyte disturbance, severe acidosis or uraemic complications; coordinate nephrology care.",
+      "source_name": "KDIGO Guidelines",
+      "source_url": "https://kdigo.org/guidelines/"
+    },
+    {
+      "id": "c23",
+      "name": "Anaemia",
+      "specialty": "Haematology",
+      "setting": "OPD + Indoor",
+      "opd": "Assess symptoms, bleeding, pregnancy, diet and chronic disease. Use CBC indices and targeted investigations; do not prescribe iron for every low Hb without considering cause.",
+      "indoor": "Stabilize significant bleeding/instability. Transfusion decisions depend on symptoms, haemodynamics, comorbidity and current guidance—not Hb alone.",
+      "source_name": "WHO anaemia information",
+      "source_url": "https://www.who.int/health-topics/anaemia"
+    },
+    {
+      "id": "c24",
+      "name": "Upper GI bleeding",
+      "specialty": "Gastrointestinal / Emergency",
+      "setting": "Emergency + Indoor",
+      "opd": "Haematemesis, melaena, syncope or shock needs emergency referral, not routine OPD care. Assess haemodynamics, medicines and bleeding risk.",
+      "indoor": "Resuscitate and risk-stratify; arrange urgent endoscopy and cause-specific treatment per institutional GI-bleed pathway; review antithrombotic medicines.",
+      "source_name": "NICE guidance library",
+      "source_url": "https://www.nice.org.uk/guidance/published?ngt=NICE+guidelines"
+    },
+    {
+      "id": "c25",
+      "name": "Dyspepsia / peptic ulcer disease",
+      "specialty": "Gastrointestinal",
+      "setting": "OPD + Indoor",
+      "opd": "Screen for bleeding, dysphagia, persistent vomiting, weight loss, anaemia and NSAID use. Consider H. pylori testing or acid suppression per local guidance.",
+      "indoor": "Bleeding, suspected perforation or obstruction requires emergency hospital management, stabilization and specialist pathway.",
+      "source_name": "ACG Clinical Guidelines",
+      "source_url": "https://gi.org/clinical-guidelines/"
+    },
+    {
+      "id": "c26",
+      "name": "Acute appendicitis",
+      "specialty": "General Surgery / Emergency",
+      "setting": "Emergency + Indoor",
+      "opd": "Suspected appendicitis requires timely surgical assessment; assess pain progression, peritonism, fever and pregnancy differential. Avoid delaying referral for nonessential tests.",
+      "indoor": "NPO as appropriate, analgesia/fluids, labs/imaging according to pathway, surgical review and antibiotics when indicated by local perioperative protocol.",
+      "source_name": "WSES Guidelines",
+      "source_url": "https://www.wses.org.uk/guidelines/"
+    },
+    {
+      "id": "c27",
+      "name": "Acute cholecystitis",
+      "specialty": "General Surgery / Gastrointestinal",
+      "setting": "Emergency + Indoor",
+      "opd": "Assess RUQ pain, fever, jaundice, sepsis and pancreatitis/cholangitis differentials. Arrange timely hospital assessment and imaging.",
+      "indoor": "Supportive care, antibiotics when indicated and early surgical review per current local pathway; urgent escalation for cholangitis, sepsis or organ dysfunction.",
+      "source_name": "WSES Guidelines",
+      "source_url": "https://www.wses.org.uk/guidelines/"
+    },
+    {
+      "id": "c28",
+      "name": "Acute pancreatitis",
+      "specialty": "Gastrointestinal / Emergency",
+      "setting": "Emergency + Indoor",
+      "opd": "Suspected acute pancreatitis requires hospital assessment; assess pain, vomiting, dehydration and cause (gallstones, alcohol, medicines, triglycerides).",
+      "indoor": "Monitor severity and organ failure; provide protocolized fluids/analgesia/nutrition, investigate cause and avoid routine prophylactic antibiotics without indication.",
+      "source_name": "ACG Clinical Guidelines",
+      "source_url": "https://gi.org/clinical-guidelines/"
+    },
+    {
+      "id": "c29",
+      "name": "Stroke (suspected)",
+      "specialty": "Neurology / Emergency",
+      "setting": "Emergency + Indoor",
+      "opd": "Sudden focal neurological deficit is time-critical: note last-known-well and activate emergency stroke transfer. Check glucose; do not delay referral.",
+      "indoor": "Urgent brain imaging and stroke-team assessment; reperfusion eligibility and BP/antithrombotic decisions must follow current stroke protocol.",
+      "source_name": "AHA/ASA Guidelines",
+      "source_url": "https://www.ahajournals.org/journal/str"
+    },
+    {
+      "id": "c30",
+      "name": "Seizure / status epilepticus",
+      "specialty": "Neurology / Emergency",
+      "setting": "Emergency + Indoor",
+      "opd": "Protect from injury, time the seizure, check glucose and airway/breathing. First seizure, prolonged seizure, repeated seizures without recovery or pregnancy needs emergency care.",
+      "indoor": "Status epilepticus is an emergency: follow institutional seizure algorithm, secure airway/monitoring, treat reversible causes and investigate precipitant.",
+      "source_name": "NICE epilepsy guidance",
+      "source_url": "https://www.nice.org.uk/guidance/ng217"
+    },
+    {
+      "id": "c31",
+      "name": "Anaphylaxis",
+      "specialty": "Emergency / Allergy",
+      "setting": "Emergency",
+      "opd": "Recognize sudden airway/breathing/circulatory compromise after likely trigger; do not wait for skin signs. Activate emergency response.",
+      "indoor": "Immediate intramuscular adrenaline/epinephrine and ABC support according to local protocol; monitor, prepare for escalation and arrange observation/follow-up.",
+      "source_name": "Resuscitation Council UK guidance",
+      "source_url": "https://www.resus.org.uk/library/additional-guidance/guidance-anaphylaxis"
+    },
+    {
+      "id": "c32",
+      "name": "Acute asthma in children",
+      "specialty": "Paediatrics / Respiratory",
+      "setting": "OPD + Emergency",
+      "opd": "Assess age-appropriate work of breathing, speech/feeding, SpO₂, hydration and prior severe attacks. Follow current paediatric asthma pathway.",
+      "indoor": "Urgent escalation for exhaustion, cyanosis, altered consciousness, silent chest or poor response; use age/weight-specific protocol and reassess frequently.",
+      "source_name": "GINA Strategy Reports",
+      "source_url": "https://ginasthma.org/reports/"
+    },
+    {
+      "id": "c33",
+      "name": "Childhood pneumonia",
+      "specialty": "Paediatrics / Infection",
+      "setting": "OPD + Indoor",
+      "opd": "Assess age, respiratory rate/work, SpO₂, feeding, hydration, danger signs and malnutrition. Use current Bangladesh/WHO age-specific algorithm.",
+      "indoor": "Admit for danger signs, hypoxaemia, severe respiratory distress, inability to feed or complications; choose treatment by age, severity and current guideline.",
+      "source_name": "WHO child pneumonia/diarrhoea guidance",
+      "source_url": "https://www.who.int/health-topics/pneumonia"
+    },
+    {
+      "id": "c34",
+      "name": "Otitis externa",
+      "specialty": "ENT",
+      "setting": "OPD",
+      "opd": "Assess ear canal, pain, discharge, diabetes/immunosuppression and tympanic membrane when visible. Avoid unneeded systemic antibiotics; choose local treatment per guideline.",
+      "indoor": "Urgent specialist review for systemic illness, spread, cranial neuropathy, severe pain in high-risk patient or suspected invasive disease.",
+      "source_name": "NICE guidance library",
+      "source_url": "https://www.nice.org.uk/guidance/published?ngt=NICE+guidelines"
+    },
+    {
+      "id": "c35",
+      "name": "Scabies",
+      "specialty": "Dermatology / Infection",
+      "setting": "OPD",
+      "opd": "Look for typical itch/distribution and household clustering; consider mimics. Treat patient and close contacts simultaneously using locally available guideline-recommended therapy; provide laundering/contact advice.",
+      "indoor": "Consider admission/specialist input for crusted scabies, severe secondary infection, immunocompromise or outbreak-control needs.",
+      "source_name": "WHO scabies information",
+      "source_url": "https://www.who.int/news-room/fact-sheets/detail/scabies"
+    },
+    {
+      "id": "c36",
+      "name": "Eczema / atopic dermatitis",
+      "specialty": "Dermatology",
+      "setting": "OPD",
+      "opd": "Assess severity, infection, triggers, sleep impact and prior treatment. Use emollients and site/severity-appropriate anti-inflammatory therapy per current guideline.",
+      "indoor": "Escalate for widespread severe disease, eczema herpeticum, systemic infection or failure of appropriate treatment; refer when diagnosis is uncertain or severe/refractory.",
+      "source_name": "NICE guidance library",
+      "source_url": "https://www.nice.org.uk/guidance/published?ngt=NICE+guidelines"
+    },
+    {
+      "id": "c37",
+      "name": "Osteoarthritis",
+      "specialty": "Musculoskeletal / Orthopaedics",
+      "setting": "OPD",
+      "opd": "Assess pain/function, red flags, trauma, inflammatory features and alternative diagnoses. Prioritize education, exercise/physiotherapy and weight management where relevant.",
+      "indoor": "Urgent evaluation for hot swollen joint with fever, acute inability to bear weight after injury, neurovascular compromise or suspected fracture/infection.",
+      "source_name": "NICE osteoarthritis guidance",
+      "source_url": "https://www.nice.org.uk/guidance/ng226"
+    },
+    {
+      "id": "c38",
+      "name": "Low back pain",
+      "specialty": "Musculoskeletal / Orthopaedics",
+      "setting": "OPD + Emergency",
+      "opd": "Screen for cauda equina, progressive neurological deficit, cancer/infection/fracture risks and systemic illness. Encourage appropriate activity when no red flags.",
+      "indoor": "Emergency MRI/specialist assessment for suspected cauda equina or serious pathology; treat cause-specific disease and avoid routine imaging in uncomplicated cases.",
+      "source_name": "NICE low back pain/sciatica",
+      "source_url": "https://www.nice.org.uk/guidance/ng59"
+    },
+    {
+      "id": "c39",
+      "name": "Fracture / acute limb injury",
+      "specialty": "Emergency / Orthopaedics",
+      "setting": "Emergency + Indoor",
+      "opd": "Assess mechanism, open wound, deformity, skin, distal pulses, capillary refill, sensation and motor function; document neurovascular status before/after splinting.",
+      "indoor": "Open fracture, compartment syndrome, vascular compromise, dislocation or threatened skin needs urgent orthopaedic care; analgesia, immobilization, imaging and antibiotics/tetanus per trauma protocol.",
+      "source_name": "NICE trauma guidance",
+      "source_url": "https://www.nice.org.uk/guidance/published?ngt=NICE+guidelines"
+    },
+    {
+      "id": "c40",
+      "name": "Deep vein thrombosis / pulmonary embolism",
+      "specialty": "Vascular / Emergency",
+      "setting": "OPD + Emergency",
+      "opd": "Assess clinical probability and red flags; use validated pathway for D-dimer/imaging rather than symptoms alone. Suspected PE with instability is an emergency.",
+      "indoor": "Urgent imaging/anticoagulation decisions per protocol, considering bleeding risk, renal function, pregnancy and haemodynamic status.",
+      "source_name": "NICE venous thromboembolic diseases",
+      "source_url": "https://www.nice.org.uk/guidance/ng158"
+    },
+    {
+      "id": "c41",
+      "name": "Pregnancy with vaginal bleeding",
+      "specialty": "Obstetrics / Emergency",
+      "setting": "Emergency + Indoor",
+      "opd": "Assess gestational age, pain, bleeding amount, syncope and haemodynamic stability; urgent referral if pregnancy-related bleeding is significant or ectopic pregnancy possible.",
+      "indoor": "Stabilize ABCs, determine pregnancy location/viability and manage ectopic/miscarriage/late-pregnancy bleeding using obstetric emergency protocol.",
+      "source_name": "NICE ectopic pregnancy and miscarriage",
+      "source_url": "https://www.nice.org.uk/guidance/ng126"
+    },
+    {
+      "id": "c42",
+      "name": "Pre-eclampsia / eclampsia",
+      "specialty": "Obstetrics / Emergency",
+      "setting": "Emergency + Indoor",
+      "opd": "Pregnancy/postpartum hypertension with headache, visual symptoms, epigastric pain or seizure is an emergency; arrange immediate obstetric assessment.",
+      "indoor": "Maternal stabilization, seizure/BP management, labs and fetal assessment according to obstetric protocol; definitive timing of delivery is specialist-led.",
+      "source_name": "WHO maternal health guidance",
+      "source_url": "https://www.who.int/health-topics/maternal-health"
+    },
+    {
+      "id": "c43",
+      "name": "Postpartum haemorrhage",
+      "specialty": "Obstetrics / Emergency",
+      "setting": "Emergency + Indoor",
+      "opd": "Heavy bleeding after birth is an emergency. Call for help, assess ABCs, uterine tone, placenta, trauma and shock.",
+      "indoor": "Activate PPH protocol immediately: resuscitation, uterine massage/uterotonics and cause-specific interventions; monitor blood loss/coagulation and escalate to surgery/transfusion when indicated.",
+      "source_name": "WHO postpartum haemorrhage guidance",
+      "source_url": "https://www.who.int/health-topics/maternal-health"
+    },
+    {
+      "id": "c44",
+      "name": "Acute urinary retention",
+      "specialty": "Urology / Emergency",
+      "setting": "Emergency + Indoor",
+      "opd": "Assess painful inability to void, bladder distension, medications, neurological symptoms, infection and renal impairment.",
+      "indoor": "Urgent decompression and monitoring per local protocol; assess urethral injury/stricture risk, renal function and cause; urgent urology review if catheterization fails or red flags exist.",
+      "source_name": "NICE guidance library",
+      "source_url": "https://www.nice.org.uk/guidance/published?ngt=NICE+guidelines"
+    },
+    {
+      "id": "c45",
+      "name": "Acute bacterial prostatitis",
+      "specialty": "Urology / Infection",
+      "setting": "OPD + Indoor",
+      "opd": "Assess fever, pelvic/perineal pain, urinary symptoms, retention and sepsis. Avoid prostatic massage in suspected acute bacterial prostatitis.",
+      "indoor": "Admit for sepsis, retention, inability to take oral therapy or severe illness; culture and treat according to local resistance guidance, with urology input if complications.",
+      "source_name": "WHO AWaRe Antibiotic Book",
+      "source_url": "https://www.who.int/publications/i/item/9789240062382"
+    },
+    {
+      "id": "c46",
+      "name": "Conjunctivitis",
+      "specialty": "Ophthalmology",
+      "setting": "OPD",
+      "opd": "Assess vision, pain, photophobia, corneal involvement, contact lens use and neonatal status. Red eye with pain or reduced vision is not routine conjunctivitis.",
+      "indoor": "Urgent ophthalmology review for visual loss, severe pain, corneal opacity, chemical injury, trauma or neonatal conjunctivitis.",
+      "source_name": "NICE guidance library",
+      "source_url": "https://www.nice.org.uk/guidance/published?ngt=NICE+guidelines"
+    },
+    {
+      "id": "c47",
+      "name": "Acute angle-closure glaucoma",
+      "specialty": "Ophthalmology / Emergency",
+      "setting": "Emergency",
+      "opd": "Severe painful red eye, blurred vision/haloes, headache, nausea or a fixed mid-dilated pupil requires immediate emergency ophthalmology referral.",
+      "indoor": "Urgent pressure-lowering treatment and definitive ophthalmic intervention per specialist protocol; do not delay transfer.",
+      "source_name": "NICE guidance library",
+      "source_url": "https://www.nice.org.uk/guidance/published?ngt=NICE+guidelines"
+    },
+    {
+      "id": "c48",
+      "name": "Iron deficiency anaemia",
+      "specialty": "Haematology",
+      "setting": "OPD + Indoor",
+      "opd": "Confirm iron deficiency and investigate the cause (menstrual/GI blood loss, diet, pregnancy, malabsorption) rather than treating Hb alone.",
+      "indoor": "Urgent stabilization for significant bleeding/instability; transfusion is not routine for stable iron deficiency. Arrange cause-specific treatment and follow-up response.",
+      "source_name": "WHO anaemia information",
+      "source_url": "https://www.who.int/health-topics/anaemia"
+    },
+    {
+      "id": "c49",
+      "name": "Fever of unknown source / acute fever",
+      "specialty": "Infection / General",
+      "setting": "OPD + Indoor",
+      "opd": "Assess duration, travel/exposure, local epidemiology, vital signs, danger signs, pregnancy and immunocompromise; avoid indiscriminate antibiotics.",
+      "indoor": "Admit/escalate for instability, altered consciousness, respiratory distress, severe dehydration, bleeding or organ dysfunction; test based on history and local epidemiology.",
+      "source_name": "Bangladesh STG on antibiotic use",
+      "source_url": "https://amr.cdc.gov.bd/wp-content/uploads/2018/10/STG-guideline-for-antimicrobial-use-version-1.0-date-1-december21.pdf"
+    }
+  ],
+  "sources": [
+    {
+      "name": "Bangladesh DGHS — Standard Treatment Guidelines on antibiotic use in common infectious diseases (2021)",
+      "url": "https://amr.cdc.gov.bd/wp-content/uploads/2018/10/STG-guideline-for-antimicrobial-use-version-1.0-date-1-december21.pdf",
+      "type": "Bangladesh official guideline"
+    },
+    {
+      "name": "Bangladesh DGHS — AMR resources and STG listing",
+      "url": "https://dghs.gov.bd/pages/static-pages/6922de08933eb65569e17b27",
+      "type": "Bangladesh official source"
+    },
+    {
+      "name": "Bangladesh DGHS — National publications (includes diabetes and hypertension guidelines)",
+      "url": "https://dghs.gov.bd/pages/publications",
+      "type": "Bangladesh official source"
+    },
+    {
+      "name": "WHO AWaRe Antibiotic Book (choice, dose, route, duration for common infections)",
+      "url": "https://www.who.int/publications/i/item/9789240062382",
+      "type": "International guideline"
+    },
+    {
+      "name": "WHO meningitis diagnosis, treatment and care guideline (2025)",
+      "url": "https://www.who.int/publications/i/item/9789240108042",
+      "type": "International guideline"
+    },
+    {
+      "name": "GINA asthma strategy reports",
+      "url": "https://ginasthma.org/reports/",
+      "type": "Specialty guideline"
+    },
+    {
+      "name": "GOLD COPD reports",
+      "url": "https://goldcopd.org/",
+      "type": "Specialty guideline"
+    },
+    {
+      "name": "NICE guideline library",
+      "url": "https://www.nice.org.uk/guidance/published?ngt=NICE+guidelines",
+      "type": "Specialty guideline"
+    },
+    {
+      "name": "NICE acute kidney injury (NG148)",
+      "url": "https://www.nice.org.uk/guidance/ng148",
+      "type": "Specialty guideline"
+    },
+    {
+      "name": "NICE venous thromboembolic diseases (NG158)",
+      "url": "https://www.nice.org.uk/guidance/ng158",
+      "type": "Specialty guideline"
+    },
+    {
+      "name": "Surviving Sepsis Campaign adult guidelines",
+      "url": "https://www.sccm.org/SurvivingSepsisCampaign/Guidelines/Adult-Patients",
+      "type": "Specialty guideline"
+    },
+    {
+      "name": "ESC clinical practice guidelines",
+      "url": "https://www.escardio.org/Guidelines/Clinical-Practice-Guidelines",
+      "type": "Specialty guideline"
+    },
+    {
+      "name": "KDIGO clinical practice guidelines",
+      "url": "https://kdigo.org/guidelines/",
+      "type": "Specialty guideline"
+    },
+    {
+      "name": "ACG clinical guidelines",
+      "url": "https://gi.org/clinical-guidelines/",
+      "type": "Specialty guideline"
+    },
+    {
+      "name": "WSES guidelines",
+      "url": "https://www.wses.org.uk/guidelines/",
+      "type": "Surgery guideline"
+    },
+    {
+      "name": "WHO dengue and severe dengue",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue",
+      "type": "International guideline"
+    }
+  ]
+}
