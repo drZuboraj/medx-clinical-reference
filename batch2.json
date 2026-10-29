@@ -1,0 +1,115 @@
+{
+  "batch": 2,
+  "conditions": [
+    {
+      "id": "b2c1",
+      "name": "Acute appendicitis",
+      "specialty": "General Surgery / Emergency",
+      "setting": "Emergency + Indoor",
+      "opd": "Suspect with migratory periumbilical-to-right-lower-quadrant pain, anorexia, nausea and localized tenderness. Presentation may be atypical in pregnancy, older adults and children. Assess vitals, peritonism and pregnancy differential; obtain CBC/CRP, urinalysis and pregnancy test when relevant. Imaging follows local pathway; ultrasound is often used first in children/pregnancy and CT may be appropriate in non-pregnant adults when uncertain.",
+      "indoor": "Suspected appendicitis needs timely surgical assessment. Keep nil by mouth if likely to need surgery; provide analgesia and fluids as indicated. In hospital, arrange surgical review, imaging and peri-operative antibiotics per local protocol. Appendectomy is standard for many patients; selected uncomplicated cases may discuss antibiotics-only management with a surgeon. Discharge only after definitive plan, stable observations, oral intake and clear return precautions.",
+      "source_name": "WSES Jerusalem guidelines (appendicitis)",
+      "source_url": "https://wjes.biomedcentral.com/articles/10.1186/s13017-020-00306-3",
+      "medication_note": "Medication examples, doses and Bangladesh brands require separate clinician review against current national/institutional guidance and verified local formulary; do not infer a brand from a generic."
+    },
+    {
+      "id": "b2c2",
+      "name": "Acute cholecystitis",
+      "specialty": "General Surgery / Gastrointestinal",
+      "setting": "Emergency + Indoor",
+      "opd": "Persistent right-upper-quadrant pain, fever and Murphy sign may suggest acute cholecystitis, commonly due to gallstones. Check CBC, CRP, liver profile, renal function and lipase; ultrasound is first-line. Consider MRCP when common bile duct stones are suspected.",
+      "indoor": "Suspected acute cholecystitis generally needs same-day hospital/surgical assessment. In hospital provide fluids if indicated, analgesia and antiemetic; antibiotics when indicated and early laparoscopic cholecystectomy when feasible. Severe/unfit patients may need specialist-guided drainage or alternative management. Discharge only with a clear definitive plan and return precautions.",
+      "source_name": "Tokyo Guidelines 2018 (biliary infection)",
+      "source_url": "https://doi.org/10.1002/jhbp.509",
+      "medication_note": "Medication examples, doses and Bangladesh brands require separate clinician review against current national/institutional guidance and verified local formulary; do not infer a brand from a generic."
+    },
+    {
+      "id": "b2c3",
+      "name": "Acute pancreatitis",
+      "specialty": "Gastrointestinal / Emergency",
+      "setting": "Emergency + Indoor",
+      "opd": "Acute persistent epigastric pain often radiating to the back with nausea/vomiting. Diagnosis generally requires 2 of 3: typical pain, lipase/amylase greater than 3 times upper limit, or characteristic imaging. Check lipase, CBC, electrolytes/renal function, glucose, liver profile, calcium and triglycerides when relevant; ultrasound assesses gallstones.",
+      "indoor": "Suspected acute pancreatitis requires hospital assessment. Use reassessed isotonic crystalloid fluids tailored to status, adequate analgesia and early oral/enteral feeding as tolerated. Treat the cause. Antibiotics are not routine for sterile pancreatitis. Urgent ERCP is reserved for selected biliary obstruction/cholangitis scenarios. Discharge when pain is controlled, oral intake tolerated, observations stable and cause/follow-up plan established.",
+      "source_name": "American College of Gastroenterology guideline",
+      "source_url": "https://journals.lww.com/ajg/fulltext/2024/03000/american_college_of_gastroenterology_guidelines_.14.aspx",
+      "medication_note": "Medication examples, doses and Bangladesh brands require separate clinician review against current national/institutional guidance and verified local formulary; do not infer a brand from a generic."
+    },
+    {
+      "id": "b2c4",
+      "name": "Small bowel obstruction",
+      "specialty": "General Surgery / Emergency",
+      "setting": "Emergency + Indoor",
+      "opd": "Colicky abdominal pain, distension, vomiting and failure to pass stool/flatus. Prior abdominal surgery is a common risk factor; consider hernia and malignancy. Assess hernial orifices; obtain CBC, electrolytes, renal function and lactate if ischaemia is suspected. CT abdomen/pelvis usually helps define cause and complications.",
+      "indoor": "Suspected obstruction needs urgent ED/surgical referral, not routine outpatient constipation care. In hospital: nil by mouth, IV fluids/electrolyte correction, nasogastric decompression when indicated, urine-output monitoring and early surgical review. Peritonitis, strangulation, ischaemia or deterioration requires urgent operation. Discharge only after resolution and treating-team confirmation of safe intake and follow-up.",
+      "source_name": "Bologna guidelines for adhesive small bowel obstruction",
+      "source_url": "https://wjes.biomedcentral.com/articles/10.1186/s13017-018-0185-2",
+      "medication_note": "Medication examples, doses and Bangladesh brands require separate clinician review against current national/institutional guidance and verified local formulary; do not infer a brand from a generic."
+    },
+    {
+      "id": "b2c5",
+      "name": "Perforated peptic ulcer",
+      "specialty": "General Surgery / Emergency",
+      "setting": "Emergency + Indoor",
+      "opd": "Sudden severe abdominal pain, guarding/rigidity and peritonitis; presentation may be atypical in older or immunocompromised patients. This is a surgical emergency. Obtain CBC, electrolytes/renal function, lactate and group/crossmatch; CT if stable and available, but do not delay resuscitation or surgery in an unstable patient.",
+      "indoor": "Immediate emergency transfer and surgical consultation; keep nil by mouth. In hospital, resuscitate, give IV fluids/blood if indicated, broad-spectrum IV antibiotics, IV PPI and analgesia, with urgent surgical source control. Test/treat H. pylori after stabilization as appropriate. Discharge after definitive treatment and clinical recovery with ulcer-cause and follow-up plans.",
+      "source_name": "WSES perforated and bleeding peptic ulcer guidelines",
+      "source_url": "https://wjes.biomedcentral.com/articles/10.1186/s13017-019-0283-9",
+      "medication_note": "Medication examples, doses and Bangladesh brands require separate clinician review against current national/institutional guidance and verified local formulary; do not infer a brand from a generic."
+    },
+    {
+      "id": "b2c6",
+      "name": "Upper GI bleeding",
+      "specialty": "Gastrointestinal / Emergency",
+      "setting": "Emergency + Indoor",
+      "opd": "Haematemesis, coffee-ground vomiting or melaena. Assess for shock and consider variceal bleeding in chronic liver disease. Investigations: CBC, urea/creatinine, electrolytes, liver profile, coagulation, group/crossmatch; ECG/troponin when indicated. Risk-stratify and arrange endoscopy after resuscitation.",
+      "indoor": "Active bleeding, syncope, hypotension, tachycardia or haematemesis needs emergency care. Resuscitate first and protect airway when needed. Endoscopy is generally performed within 24 hours after stabilization; suspected variceal bleeding requires prompt specialist pathway. Discharge after source treatment, no ongoing bleeding, stable observations and a clear medicine/follow-up plan.",
+      "source_name": "ACG guideline: upper gastrointestinal and ulcer bleeding",
+      "source_url": "https://journals.lww.com/ajg/fulltext/2021/05000/acg_clinical_guideline__upper_gastrointestinal_and.14.aspx",
+      "medication_note": "Medication examples, doses and Bangladesh brands require separate clinician review against current national/institutional guidance and verified local formulary; do not infer a brand from a generic."
+    },
+    {
+      "id": "b2c7",
+      "name": "Acute urinary retention",
+      "specialty": "Urology / Emergency",
+      "setting": "Emergency + Indoor",
+      "opd": "Inability to pass urine with painful distended bladder; causes include prostatic obstruction, medicines, urethral stricture, neurological disease and infection. Assess abdomen/genitalia and focused neurology; bladder scan, urinalysis and renal function as appropriate. New saddle anaesthesia or leg weakness is a red flag.",
+      "indoor": "Acute retention usually needs urgent assessment and bladder decompression by trained staff unless urethral injury is suspected. Monitor drained volume, haematuria and post-obstructive diuresis when relevant; arrange trial without catheter/urology follow-up. Suspected cauda equina, sepsis, trauma or failed catheterization requires emergency escalation. Discharge only with a safe catheter-care plan and review date.",
+      "source_name": "NHS acute urinary retention overview",
+      "source_url": "https://www.nhs.uk/conditions/urinary-retention/",
+      "medication_note": "Medication examples, doses and Bangladesh brands require separate clinician review against current national/institutional guidance and verified local formulary; do not infer a brand from a generic."
+    },
+    {
+      "id": "b2c8",
+      "name": "Renal colic / suspected ureteric stone",
+      "specialty": "Urology / Emergency",
+      "setting": "Emergency + Indoor",
+      "opd": "Severe flank pain radiating to groin, often with nausea and haematuria. Fever/sepsis with obstruction is a urological emergency. Check urinalysis, renal function and pregnancy test when relevant; imaging follows local pathway (ultrasound in pregnancy; low-dose non-contrast CT commonly in non-pregnant adults).",
+      "indoor": "Urgent ED referral for fever/rigors, anuria, solitary kidney, pregnancy with severe symptoms, uncontrolled pain/vomiting or renal impairment. Analgesia, antiemetic and fluids to correct deficit; avoid forced hydration. Evaluate stone size/location and need for urological intervention. Discharge only if pain controlled, no infection/AKI/high-risk feature and follow-up arranged.",
+      "source_name": "NICE renal and ureteric stones guidance",
+      "source_url": "https://www.nice.org.uk/guidance/ng118",
+      "medication_note": "Medication examples, doses and Bangladesh brands require separate clinician review against current national/institutional guidance and verified local formulary; do not infer a brand from a generic."
+    },
+    {
+      "id": "b2c9",
+      "name": "Cellulitis and skin abscess",
+      "specialty": "Skin / Infection / Surgery",
+      "setting": "OPD + Emergency",
+      "opd": "Cellulitis causes spreading erythema, warmth, swelling and tenderness. A fluctuant abscess generally needs drainage. Rapid progression, pain out of proportion or systemic toxicity may indicate necrotizing infection. Tests/cultures are reserved for severity, systemic illness, unusual exposure or deep infection.",
+      "indoor": "Mild uncomplicated cellulitis may be treated outpatient if stable and follow-up is reliable. Admit/escalate for sepsis, rapid progression, high-risk sites, immunocompromise or suspected deep/necrotizing infection. Incision and drainage is primary treatment for a drainable abscess; antibiotics depend on systemic features, surrounding cellulitis, host factors and local resistance. Review if not improving within 48–72 hours.",
+      "source_name": "NICE cellulitis and erysipelas antimicrobial guidance",
+      "source_url": "https://www.nice.org.uk/guidance/ng141",
+      "medication_note": "Medication examples, doses and Bangladesh brands require separate clinician review against current national/institutional guidance and verified local formulary; do not infer a brand from a generic."
+    },
+    {
+      "id": "b2c10",
+      "name": "Diabetic ketoacidosis (DKA)",
+      "specialty": "Endocrine / Emergency",
+      "setting": "Emergency + Indoor",
+      "opd": "Hyperglycaemia or known diabetes with ketonaemia and metabolic acidosis; euglycaemic DKA can occur, including with SGLT2 inhibitors. Check bedside glucose and blood ketones, venous blood gas, electrolytes, renal function and ECG; investigate precipitant such as infection, missed insulin, MI, pregnancy or medicines.",
+      "indoor": "Suspected DKA requires emergency hospital transfer, not home/outpatient management. Use a current monitored institutional protocol for fluids, IV insulin when indicated, potassium-guided replacement and frequent glucose/ketone/electrolyte checks. Check potassium before insulin and replace according to protocol; treat precipitant. Discharge only after biochemical resolution, safe transition to subcutaneous insulin, education, supplies and follow-up.",
+      "source_name": "2024 international consensus report on hyperglycaemic crises",
+      "source_url": "https://diabetesjournals.org/care/article/47/8/1257/156808/Hyperglycemic-Crises-in-Adults-With-Diabetes-A",
+      "medication_note": "Medication examples, doses and Bangladesh brands require separate clinician review against current national/institutional guidance and verified local formulary; do not infer a brand from a generic."
+    }
+  ]
+}
